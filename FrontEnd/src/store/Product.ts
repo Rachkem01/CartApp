@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk,PayloadAction} from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 import { RootState } from "./store";
 
  export interface Product{
@@ -59,7 +59,7 @@ export const product =(state:RootState)=>state.product.data
 export const loading = (state:RootState)=>state.product.loading
 export const error = (state:RootState) =>state.product.error
 export default productSlice.reducer
-export const {add}= productSlice.actions
+
 
 // export function getProducts(){
 //     return async function getProductsThunk(dispatch, getState){
