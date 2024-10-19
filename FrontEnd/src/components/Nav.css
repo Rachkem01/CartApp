@@ -1,0 +1,41 @@
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.nav h1{
+    color: #5f0f40;
+}
+.nav span{
+    color: #9a031e;
+}
+.nav li{
+    list-style: none;
+    font-size: max(1vw, 1.4rem);
+    color:#5f0f40;
+    font-weight: bold;
+  
+}
+.nav a:hover{
+    color: #9a031e;
+}
+.navbar .active{
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar li{
+    padding-left: 50px;
+}
+.Link{
+    color: inherit;
+    text-decoration: none;
+}
